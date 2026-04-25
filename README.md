@@ -71,20 +71,11 @@ Example response:
 mvn test
 ```
 
-## Bonus: Deploy on Render
+## Deploy on Render
 
 This repo includes a `render.yaml` and `Dockerfile`, so you can deploy it as a web service on Render.
-
-Suggested settings:
+settings:
 
 - Environment: `Docker`
 - Port: `8080`
 
-## Suggested Submission Items
-
-- Push this code to GitHub
-- Add screenshots of:
-  - application running locally
-  - successful `Hi` request/response
-  - successful `Bye` request/response
-- Optional: deploy on Render or another free platform
